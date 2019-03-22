@@ -1,0 +1,32 @@
+{
+  "name": "migrant",
+  "version": "1.0.0",
+  "description": "perform full database migrations easily",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseokeyahealthbrain/migrant.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongo",
+    "mlab",
+    "mongoose"
+  ],
+  "author": "Jesse Okeya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseokeyahealthbrain/migrant/issues"
+  },
+  "homepage": "https://github.com/jesseokeyahealthbrain/migrant#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "mongoose": "^5.4.19"
+  }
+}
