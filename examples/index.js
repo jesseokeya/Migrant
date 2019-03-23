@@ -7,4 +7,4 @@ const migration = new Migrant({
 
 migration.execute().then(res => {
     console.log(res)
-})
+}).catch(err => { console.log(err.message) })
