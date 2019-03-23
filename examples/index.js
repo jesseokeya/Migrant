@@ -5,6 +5,6 @@ const migration = new Migrant({
     down: 'mongodb://codefront:codefront@ds129776.mlab.com:29776/codefront'
 })
 
-migration.collections().then(res => {
+migration.execute().then(res => {
     console.log(res)
 })
