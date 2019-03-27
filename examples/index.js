@@ -1,8 +1,8 @@
 const Migrant = require('../index')
 
 const context = new Migrant({
-    up: 'mongodb://workbench:workbench1@ds145093.mlab.com:45093/workbench',
-    down: ' mongodb://codefront:codefront123@ds249311.mlab.com:49311/codefront'
+    up: 'mongodb://dafe:dafe12@ds237574.mlab.com:37574/orezime',
+    down: 'mongodb://orezime-admin:orezime12@cluster0-shard-00-00-qpxel.gcp.mongodb.net:27017,cluster0-shard-00-01-qpxel.gcp.mongodb.net:27017,cluster0-shard-00-02-qpxel.gcp.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true'
 })
 
 context.migrate()
