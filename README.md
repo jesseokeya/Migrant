@@ -5,7 +5,19 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+```js
+const Migrant = require('../index')
+
+const context = new Migrant({
+    /** Database uri your migrating from  **/
+    up: process.env.UP,
+    /** Database uri our migrating to **/
+    down: process.env.DOWN
+})
+
+/** performs database migration **/
+context.migrate()
+````
 
 ### Prerequisites
 
@@ -22,7 +34,7 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+npm install package-name --save
 ```
 
 And repeat
