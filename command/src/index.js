@@ -1,19 +1,20 @@
+const Migrant = require('../../lib')
 const {Command, flags} = require('@oclif/command')
 
-class OclifExampleSingleJsCommand extends Command {
+class HealthbrainMigrantCommand extends Command {
   async run() {
-    const {flags} = this.parse(OclifExampleSingleJsCommand)
+    const {flags} = this.parse(HealthbrainMigrantCommand)
     const name = flags.name || 'world'
     this.log(`hello ${name} from ./src/index.js`)
   }
 }
 
-OclifExampleSingleJsCommand.description = `Describe the command here
+HealthbrainMigrantCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
 
-OclifExampleSingleJsCommand.flags = {
+HealthbrainMigrantCommand.flags = {
   // add --version flag to show CLI version
   version: flags.version({char: 'v'}),
   // add --help flag to show CLI version
@@ -21,4 +22,4 @@ OclifExampleSingleJsCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = OclifExampleSingleJsCommand
+module.exports = HealthbrainMigrantCommand
