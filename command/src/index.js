@@ -10,8 +10,9 @@ class HealthbrainMigrantCommand extends Command {
   }
 }
 
-HealthbrainMigrantCommand.description = `Describe the command here
-Perform mongoDb migrations easily
+HealthbrainMigrantCommand.description = `Perform mongoDb migrations easily
+Make sure your database uri permissions give you read write access
+
 Give us a star on github 
 https://github.com/jesseokeyahealthbrain/Migrant
 `;
