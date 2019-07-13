@@ -26,7 +26,7 @@
     "url": "https://github.com/jesseokeyahealthbrain/migrant/issues"
   },
   "bin": {
-    "migrant": "./bin/run"
+    "migrant": "./command/bin/run"
   },
   "oclif": {
     "bin": "migrant"
