@@ -4,16 +4,15 @@ const { Command, flags } = require("@oclif/command");
 
 class HealthbrainMigrantCommand extends Command {
   async run() {
-    const { flags } = this.parse(HealthbrainMigrantCommand);
-    // const name = flags.name || "world"; 
+    // const { flags } = this.parse(HealthbrainMigrantCommand);
     this.log('\n                       🚀 ', ` Migrant `.white.bold.inverse, '🚀 \n')
     this.log(`Perform MongoDb Migrations Easily. Use --help flag to learn more \n`.white.bold.inverse);
   }
 }
 
 HealthbrainMigrantCommand.description = `Describe the command here
-...
-Extra documentation goes here
+Perform mongoDb migrations easily
+Give us a star on github https://github.com/jesseokeyahealthbrain/Migrant
 `;
 
 HealthbrainMigrantCommand.flags = {
@@ -21,7 +20,7 @@ HealthbrainMigrantCommand.flags = {
   version: flags.version({ char: "v" }),
   // add --help flag to show CLI version
   help: flags.help({ char: "h" }),
-  name: flags.string({ char: "n", description: "name to print" })
+  migrate: flags.string({ char: "n", description: "performs database migration from up to down" })
 };
 
 module.exports = HealthbrainMigrantCommand;
