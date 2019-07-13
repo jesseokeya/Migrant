@@ -2,9 +2,9 @@ const Migrant = require('../index')
 
 const context = new Migrant({
     /** Database uri your migrating from  **/
-    up: process.env.UP,
+    up: 'mongodb://healthbrain:healthbrain@ds255258.mlab.com:55258/healthbraindev',
     /** Database uri our migrating to **/
-    down: process.env.DOWN
+    down: 'mongodb+srv://jesseokeya:ov6CCAcEWxpMaXKw@cluster0-gseyx.mongodb.net/test?retryWrites=true&w=majority'
 })
 
 /** performs database migration **/
