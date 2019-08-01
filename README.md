@@ -38,8 +38,6 @@ context.migrate()
 
 ### CLI Usage
 
-Type command in terminal or command line
-
 Displays current version of mongo-migrate
 
 ```sh
