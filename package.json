@@ -1,5 +1,5 @@
 {
-  "name": "@healthbrain/migrant",
+  "name": "migrant",
   "version": "1.0.0",
   "description": "perform mongoDb migrations easily",
   "main": "index.js",
