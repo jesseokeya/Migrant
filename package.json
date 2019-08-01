@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesseokeyahealthbrain/migrant.git"
+    "url": "git+https://github.com/jesseokeya/migrant.git"
   },
   "keywords": [
     "nodejs",
@@ -23,7 +23,7 @@
   "author": "Jesse Okeya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jesseokeyahealthbrain/migrant/issues"
+    "url": "https://github.com/jesseokeya/migrant/issues"
   },
   "bin": {
     "migrant": "./command/bin/run"
@@ -31,7 +31,7 @@
   "oclif": {
     "bin": "migrant"
   },
-  "homepage": "https://github.com/jesseokeyahealthbrain/migrant#readme",
+  "homepage": "https://github.com/jesseokeya/migrant#readme",
   "dependencies": {
     "@oclif/command": "^1.5.12",
     "@oclif/config": "^1.12.11",
