@@ -1,6 +1,6 @@
 {
   "name": "mongo-migrant",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "perform mongoDb migrations easily",
   "main": "index.js",
   "directories": {
@@ -25,12 +25,6 @@
   "bugs": {
     "url": "https://github.com/jesseokeya/migrant/issues"
   },
-  "bin": {
-    "migrant": "./command/bin/run"
-  },
-  "oclif": {
-    "bin": "migrant"
-  },
   "homepage": "https://github.com/jesseokeya/migrant#readme",
   "dependencies": {
     "@oclif/command": "^1.5.12",
@@ -48,9 +42,5 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  },
-  "files": [
-    "/bin",
-    "/src"
-  ]
+  }
 }
