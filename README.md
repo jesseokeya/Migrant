@@ -38,7 +38,21 @@ context.migrate()
 
 ### CLI Usage
 
-Type command in terminal or commandline
+Type command in terminal or command line
+
+Displays current version of mongo-migrate
+
+```sh
+mongo-migrant --version
+```
+
+Displays command line usage / docs
+
+```sh
+mongo-migrant --help
+```
+
+Performs mongo database migration
 
 ```sh
 mongo-migrant --up='database_uri_your_migrating_from' --down='database_uri_your_migrating_to'
