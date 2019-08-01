@@ -1,6 +1,6 @@
 {
   "name": "mongo-migrant",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "perform mongoDb migrations easily",
   "main": "index.js",
   "directories": {

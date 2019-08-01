@@ -23,7 +23,7 @@ npm install mongo-migrant -g
 ### Usage
 
 ```js
-const Migrant = require('../index')
+const Migrant = require('mongo-migrants')
 
 const context = new Migrant({
     /** Database uri your migrating from  **/
@@ -38,7 +38,7 @@ context.migrate()
 
 ### CLI Usage
 
-Displays current version of mongo-migrate
+Displays current version of mongo-migrant
 
 ```sh
 mongo-migrant --version
