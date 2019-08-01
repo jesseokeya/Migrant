@@ -28,7 +28,7 @@ MigrantCommand.description = `Perform mongoDb migrations easily
 Make sure your database uri permissions give you read write access
 
 Give us a star on github 
-https://github.com/jesseokeyahealthbrain/Migrant
+https://github.com/jesseokeya/Migrant
 `;
 
 MigrantCommand.flags = {

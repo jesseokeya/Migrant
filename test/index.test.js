@@ -1,7 +1,7 @@
 const {expect, test} = require('@oclif/test')
 const cmd = require('..')
 
-describe('@healthbrain/migrant', () => {
+describe('migrant', () => {
   test
   .stdout()
   .do(() => cmd.run([]))
