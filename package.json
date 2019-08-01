@@ -1,6 +1,6 @@
 {
   "name": "mongo-migrant",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "perform mongoDb migrations easily",
   "main": "index.js",
   "directories": {
@@ -24,6 +24,12 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jesseokeya/migrant/issues"
+  },
+  "bin": {
+    "mongo-migrant": "command/bin/run"
+  },
+  "oclif": {
+    "bin": "mongo-migrant"
   },
   "homepage": "https://github.com/jesseokeya/migrant#readme",
   "dependencies": {
